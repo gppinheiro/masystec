@@ -1,0 +1,8 @@
+$font-primary: 'Poppins', Arial, sans-serif;
+
+$white: #fff;
+$black: #212529;
+$darken: #232931;
+
+$primary: #1f27af;
+$secondary: #ca5a56;
