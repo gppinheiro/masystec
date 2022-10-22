@@ -84,35 +84,6 @@
     font-size: 36px;
 }
 
-/* Sobre Nós */
-#sobre-nos-section p {
-    font-family: 'Poppins', Arial, sans-serif;
-    font-size: 18px;
-    color: #232931;
-    text-align: left;
-}
-
-#sobre-nos-section .row {
-    padding-top:25px;
-}
-
-#sobre-nos-section .card {
-    min-height: 450px;
-}
-
-#sobre-nos-section .card-header {
-    min-height: 90px;
-    background-color: #ffd6ce;
-}
-
-#sobre-nos-section .card-header p {
-    font-size: 18px;
-}
-
-#sobre-nos-section .desc {
-    font-size: 16px;
-}
-
 /* Projetos */
 .button-group button{
     background: none;
