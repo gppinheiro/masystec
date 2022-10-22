@@ -24,7 +24,7 @@ header {
     width: 100%;
 } 
 
-.sticky + section {
+.sticky + #projetos-section {
     padding-top: 75px;
 }
 
