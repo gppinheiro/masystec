@@ -4,8 +4,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    position: fixed;
-    top: 0;
     left: 0;
 }
 
@@ -17,9 +15,17 @@ header {
 
 .white_rectangle {
     height: 75px;
-    width: 100%;
     background-color: #fff;
-    position: fixed;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+} 
+
+.sticky + section {
+    padding-top: 75px;
 }
 
 .main_nav {

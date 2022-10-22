@@ -2,7 +2,6 @@
 .back_color_first_page {
     height: calc(100vh - 75px);
     position: relative;
-    margin-top: 75px;
 }
 
 .back_color_first_page:before {

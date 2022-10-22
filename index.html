@@ -23,7 +23,7 @@
 
     <body>
 
-        <header class="white_rectangle">
+        <header class="white_rectangle" id="masystecHeader">
             <a href=""><img class="logo" src="img/logo.png" alt="logo" width="150"></a>
 
             <nav class="main_nav">
@@ -34,22 +34,21 @@
                 <div class="menu-button">
                     <span class="bar"></span>
                     <span class="bar"></span>
-                    <span class="bar"></span>
                 </div>
             </nav>
 
         </header>
 
         <section class="back_color_first_page" id="home-section">
-        <div class="first_page">
-            <div class="text_middle">
-                <h1>MASYSTEC</h1>
-                <span class="subheading">Automação Industrial Lda.</span>
+            <div class="first_page">
+                <div class="text_middle">
+                    <h1>MASYSTEC</h1>
+                    <span class="subheading">Automação Industrial Lda.</span>
+                </div>
+                <div class="img_middle">
+                    <img src="ico/scroll_down.png" width="150">
+                </div>
             </div>
-            <div class="img_middle">
-                <img src="ico/scroll_down.png" width="150">
-            </div>
-        </div>
         </section>
 
         <!-- Sobre Nós -->
@@ -271,6 +270,27 @@
                 </p>
             </div>
         </footer>
+
+        <!-- JAVASCRIPT FOR THE HEADER-->
+        <script type="text/javascript">
+            // When the user scrolls the page, execute myFunction 
+            window.onscroll = function() {myFunction()};
+
+            // Get the header
+            var header = document.getElementById("masystecHeader");
+
+            // Get the offset position of the navbar
+            var sticky = header.offsetTop;
+
+            // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+            }
+        </script>
     
         <!-- JAVASCRIPT TO GENERATE A MENU BUTTON - RESPONSIVE WAY-->
         <script type="text/javascript" src="../js/header.js"></script>
