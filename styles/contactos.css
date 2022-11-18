@@ -56,7 +56,7 @@
 }
 
 .col-right #container {
-    border: solid 3px #eaf0ff;
+    border: solid 3px #ca5a56;
     max-width: 768px;
     margin: 50px auto;
     position: relative;
@@ -79,8 +79,8 @@
 
 .col-right .underline {
     border-bottom: solid 2px #232931;
-    margin: -0.512em auto;
-    width: 80px;
+    margin: -0.25em auto;
+    width: 120px;
 }
 
 .col-right .icon_wrapper {
@@ -245,4 +245,16 @@
 .col-right input[type='text'], input[type='email'], select, textarea {
     font-size: 0.875em;
 }
+}
+
+@media only screen and (max-width: 1000px) {
+    .col-left {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+    .col-right {
+        width: 75%;
+        margin-left: 12.5%;
+    }
 }

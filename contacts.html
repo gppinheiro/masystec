@@ -21,17 +21,18 @@
     <body>
 
         <header class="white_rectangle" id="masystecHeader">
-            <a href=""><img class="logo" src="img/logo.png" alt="logo" width="150"></a>
+            <a href="index.html"><img class="logo" src="img/logo.png" alt="logo" width="150"></a>
 
             <nav class="main_nav">
                 <ul class="nav__links">
                     <li><a href="index.html"><i class="fa fa-home"></i> Início</a></li>
-                    <li><a href="#"><i class="fa fa-book"></i> Contactos</a></li>
+                    <!-- <li><a href="#"><i class="fa fa-book"></i> Contactos</a></li> -->
                 </ul>
-                <div class="menu-button">
+                <!-- <div class="menu-button">
                     <span class="bar"></span>
                     <span class="bar"></span>
-                </div>
+                    <span class="bar"></span>
+                </div> -->
             </nav>
 
         </header>
@@ -118,17 +119,16 @@
         </script>
     
         <!-- JAVASCRIPT TO GENERATE A MENU BUTTON - RESPONSIVE WAY-->
-        <script type="text/javascript" src="../js/header.js"></script>
+        <!-- <script type="text/javascript" src="../js/header.js"></script> -->
 
         <!-- JAVASCRIPT TO SEND EMAILS -->
         <script type="text/javascript">
             async function sendMail() {
                 const form = document.getElementById('contact_form');
 
-                console.log(form.elements['email'].value);
-
                 fetch('https://api.mailjet.com/v3.1/send', {
                     method: 'POST',
+                    mode: 'cors',
                     headers: {
                         'Content-Type': 'application/json',
                         'Authorization': 'Basic ' + btoa('571f8a0842f174448d0b5fd54452c179:dbd321f859dcef20e70198d20f01271c')

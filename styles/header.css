@@ -70,7 +70,7 @@ header {
     background-color: #212529;
 }
 
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
     .nav__links {
         position: fixed;
         left: -100%;
@@ -93,7 +93,7 @@ header {
     }
     
     .nav__links a {
-        color: #232931;
+        color: #1f27af;
     }
 
     .nav__links a:hover {
@@ -105,4 +105,4 @@ header {
         cursor: pointer;
     }
 
-}
+} */
