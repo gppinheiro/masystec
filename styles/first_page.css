@@ -8,10 +8,10 @@
     content: '';
     display: block;
     position: absolute;
-    background-image: url('../img/background.png');
+    background-image: url('../img/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.3;
+    opacity: 0.2;
     left: 0;
     top: 0;
     width: 100%;
